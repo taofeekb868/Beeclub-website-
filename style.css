@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #2a1b6b, #503a94);
+  position: relative;
+}
+.style {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+  radial-gradient(1px 1px at 25% 15%, #fff, tranprent)
+  radial-gradient(1px 1px at 25% 15%, #fff, tranprent)
+  radial-gradient(1px 1px at 25% 15%, #fff, tranprent)
+  radial-gradient(1px 1px at 25% 15%, #fff, tranprent)
+  radial-gradient(1px 1px at 25% 15%, #fff, tranprent)
+  radial-gradient(1px 1px at 25% 15%, #fff, tranprent)
+  radial-gradient(1px 1px at 25% 15%, #fff, tranprent)
+  radial-gradient(1px 1px at 25% 15%, #fff, tranprent)
+  radial-gradient(1px 1px at 25% 15%, #fff, tranprent)
+  radial-gradient(1px 1px at 25% 15%, #fff, tranprent)
+  ;
+}
+
+.form {
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 5px 32px rgba(0, 0 , 0, 0.2);
+  color: #fff;
+  border-radius: 16px;
+  padding: 35px;
+}
+
+.form h1 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600px;
+}
+
+.box-form {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.box-form input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 16px;
+  padding: 0 20px;
+}
+
+.box-form input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.box-form i {
+  position: absolute;
+  right: 20px;
+  font-size: 20px;
+  top: 25%;
+}
+
+.box-rememeber {
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 25px;
+font-size: 16px;
+}
+
+.box-rememeber label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.box-rememeber label input {
+  accent-color: rgb(127, 12, 215);
+}
+
+.box-rememeber a {
+text-decoration: none;
+color: #fff;
+}
+
+.box-rememeber a:hover{
+  text-decoration: underline;
+}
+
+button {
+  width: 100%;
+  height: 45px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+button a{
+  text-decoration: none;
+  color: #2a1b6b;
+}
+
+button:hover {
+  background-color: #fff;
+  transform: translateY(-5px);
+  
+}
+
+.link-register {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 14px;
+}
+
+.link-register a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.link-register a:hover{
+  text-decoration: underline;
+}
